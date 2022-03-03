@@ -1,7 +1,7 @@
 
 
 # Julia Kruglova 
-![my photo was here] "my photo"
+![my photo was here](assets/ME.jpg) "my photo"
 
 ****
 ## Contact me
