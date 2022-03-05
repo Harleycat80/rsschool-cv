@@ -1,6 +1,7 @@
 
 const header=document.querySelector('ul')
-const main = document.querySelector('main')
+const cont=document.querySelector('main')
+
 
 let area=''
 
@@ -23,11 +24,15 @@ function changeBack(e){
    
 }
 
-function changeStatus(){
-    let activ = document.getElementsByClassName('active')
-    activ.classList.remove('active')
 
-}
 
 header.addEventListener('click',changeBack)
-main.addEventListener('click',changeStatus)
+
+cont.addEventListener('click', remClass)
+function remClass(){
+    for (let elem of cont.getElementsByTagName('*')){
+          elem.classList.remove('active')
+    }
+    console.log('done')
+}
+
