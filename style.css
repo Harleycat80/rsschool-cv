@@ -53,7 +53,6 @@ body{
   margin-bottom: 20px;
   margin-left: 20px;
   position: relative;
- 
   
  
 }
@@ -65,7 +64,7 @@ body{
   justify-content: space-between;
   margin-bottom: 20px;
   
-
+  
 }
 .avatar{
   position: absolute;
@@ -218,6 +217,7 @@ text-align: center;
   margin-right: 10px;
   margin-bottom: 30px;
   padding: 8px;
+  transition: 0.5s;
 }
 span{
   font-family:'Open Sans', sans-serif;
@@ -242,6 +242,7 @@ li{
   padding-bottom: 20px;
   gap:10px;
   padding: 10px;
+  transition: 0.5s;
 }
 
  a:link, .projects a, .section a{
