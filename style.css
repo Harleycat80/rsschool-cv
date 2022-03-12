@@ -24,7 +24,7 @@ body{
   min-height: 100vh;
   background-color:#E5E5E5;  
   display: grid;
-  border: 1px solid orange;
+  /*border: 1px solid orange;*/
 
   grid-template-areas: 
   "header header header header"
@@ -81,7 +81,7 @@ body{
   left: 40px;
   width: 148px;
   height: 156px;
-  background-image:url(assets/Frameme.png);
+  background-image:url(assets/avater2.JPG);
   transform: scale(-1,1);
   background-size: cover;
   
@@ -230,6 +230,7 @@ font-weight: 300;
 line-height: 22px;
 letter-spacing: 0.08em;
 text-align: center;
+
 }
 .surname{font-family: 'Montserrat', sans-serif;
   font-size: 20px;
@@ -348,6 +349,7 @@ transform: scale(1.1);
 }
 
 .shadow{
+  display: none;
   position: relative;
   top:2px;
   left:-15px;
