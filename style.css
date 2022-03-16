@@ -24,7 +24,7 @@ body{
   min-height: 100vh;
   background-color:#E5E5E5;  
   display: grid;
-  border: 1px solid orange;
+  /*border: 1px solid orange;*/
 
   grid-template-areas: 
   "header header header header"
@@ -34,7 +34,7 @@ body{
  
 }
 :root{
-  --first-color:conic-gradient(from 179.27deg at 48.3% -10.58%, #E5E5E5 -146.25deg, rgba(164, 176, 109, 0.62) 63.75deg, #B5BA9E 142.5deg, #E5E5E5 213.75deg, rgba(164, 176, 109, 0.62) 423.75deg);
+  
   --second-color: conic-gradient(from 9.48deg at 74.03% 112.2%, rgba(222, 119, 75, 0.764901) -42.74deg, #E75F25 28.66deg, rgba(235, 129, 84, 0) 201.35deg, rgba(222, 119, 75, 0.764901) 317.26deg, #E75F25 388.66deg);
   --third-color: conic-gradient(from 90deg at -12.99% 50%, #E78E25 -1.37deg, rgba(222, 119, 75, 0.764901) 4.91deg, rgba(235, 129, 84, 0) 201.35deg, rgba(223, 119, 75, 0.751558) 353.64deg, #E78E25 358.63deg, rgba(222, 119, 75, 0.764901) 364.91deg);
 
@@ -99,6 +99,7 @@ body{
   height: 166px;
   border: 2px solid rgba(223, 119, 75);
   z-index: 11;
+  
 }
 .nav-list{
   display: flex;
@@ -121,6 +122,8 @@ body{
 }
 
 header{
+  position: relative;
+  z-index: 5;
   grid-area: header;
   height: 80px;
   display: flex;
@@ -230,6 +233,7 @@ font-weight: 300;
 line-height: 22px;
 letter-spacing: 0.08em;
 text-align: center;
+
 }
 .surname{font-family: 'Montserrat', sans-serif;
   font-size: 20px;
@@ -348,6 +352,7 @@ transform: scale(1.1);
 }
 
 .shadow{
+  display: none;
   position: relative;
   top:2px;
   left:-15px;
